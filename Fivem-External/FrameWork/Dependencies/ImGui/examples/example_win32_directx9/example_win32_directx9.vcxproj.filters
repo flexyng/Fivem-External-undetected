@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\backends\imgui_impl_dx9.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_freetype.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\gui.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\window.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\helpers.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\draw.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\section.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\child.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\checkbox.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\slider.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\dropdown.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\textfield.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\button.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\colorpicker.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\keybind.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\elements\notify.cpp">
+      <Filter>framework\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\framework\shader\dx9\blur.cpp">
+      <Filter>framework\shader\dx9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{4ac1bde5-6557-4b75-93d4-fc20f344d560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{f5a0fe59-9c65-42be-9bf9-9bcff390c9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\freetype">
+      <UniqueIdentifier>{8468f35b-dd59-49d4-9f6a-d0c85d39d191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui">
+      <UniqueIdentifier>{6e08f819-961d-4b80-a79e-9d160cc64e05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui\impl">
+      <UniqueIdentifier>{b1d3a3a0-f87b-4778-a32f-fec5e84fc378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\data">
+      <UniqueIdentifier>{4ccfc140-e198-4530-a8dd-825d6bb88117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\elements">
+      <UniqueIdentifier>{7df5de95-33bc-40ab-9511-1b16828c5218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\settings">
+      <UniqueIdentifier>{b501efb5-9540-49b2-bd61-3fc4efc636aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\shader">
+      <UniqueIdentifier>{5b1ff512-dc73-4473-8389-cfc9278011cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\shader\dx9">
+      <UniqueIdentifier>{06097a7e-999e-4986-8928-ddcdb2eaad1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\shader\dx11">
+      <UniqueIdentifier>{72433e4c-4f63-4506-ad33-61fda0a9a3e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\freetype\win64\freetype.lib">
+      <Filter>thirdparty\freetype</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\backends\imgui_impl_dx9.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>thirdparty\imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_freetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\fonts.h">
+      <Filter>framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\data\images.h">
+      <Filter>framework\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\colors.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\elements.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\functions.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\settings\variables.h">
+      <Filter>framework\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\dx9\blur.h">
+      <Filter>framework\shader\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\dx9\blur_x.h">
+      <Filter>framework\shader\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\dx9\blur_y.h">
+      <Filter>framework\shader\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\dx11\blur.hpp">
+      <Filter>framework\shader\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\framework\shader\dx11\pshader.hpp">
+      <Filter>framework\shader\dx11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

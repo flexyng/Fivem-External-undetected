@@ -1,0 +1,6 @@
+C:\Users\julan\Desktop\Cheat ImGui\thirdparty\imgui\examples\example_win32_directx9\Release\example_.2FE39316.Up2Date
+C:\Users\julan\Desktop\Cheat ImGui\thirdparty\imgui\examples\example_win32_directx9\Release\example_win32_directx9.exe
+C:\Users\julan\Desktop\Cheat ImGui\thirdparty\imgui\examples\example_win32_directx9\Release\D3DCompiler_43.dll
+C:\Users\julan\Desktop\Cheat ImGui\thirdparty\imgui\examples\example_win32_directx9\Release\d3dx9_43.dll
+C:\Users\julan\Desktop\Cheat ImGui\thirdparty\imgui\examples\example_win32_directx9\Release\d3dx10_43.dll
+C:\Users\julan\Desktop\Cheat ImGui\thirdparty\imgui\examples\example_win32_directx9\Release\d3dx11_43.dll

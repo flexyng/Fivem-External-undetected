@@ -1,0 +1,5 @@
+﻿  Cheat.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Cheat.cpp(79,145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Cheat.cpp(82,145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Cheat.cpp(85,146): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ConfigSystem.cpp

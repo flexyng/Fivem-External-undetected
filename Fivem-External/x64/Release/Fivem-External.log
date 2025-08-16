@@ -1,0 +1,147 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Fivem-External.vcxproj, Leviathan.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of esp.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Cheat\Features\esp\esp.cpp, FrameWork\framework\elements\esp.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of imgui_impl_dx11.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are FrameWork\Dependencies\ImGui\backends\imgui_impl_dx11.cpp, FrameWork\Dependencies\ImGui\imgui_impl_dx11.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of imgui_impl_win32.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are FrameWork\Dependencies\ImGui\backends\imgui_impl_win32.cpp, FrameWork\Dependencies\ImGui\imgui_impl_win32.cpp.
+  Cheat.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Cheat.cpp(79,145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Cheat.cpp(82,145): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Cheat.cpp(85,146): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ConfigSystem.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\ConfigSystem.cpp(14,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  magicbullet.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\legit\magicbullet\magicbullet.cpp(18,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  rage.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\rage\rage.cpp(394,35): warning C4244: 'initializing': conversion from 'T' to 'uint32_t', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\rage\rage.cpp(394,35): warning C4244:         with
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\rage\rage.cpp(394,35): warning C4244:         [
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\rage\rage.cpp(394,35): warning C4244:             T=float
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\rage\rage.cpp(394,35): warning C4244:         ]
+  aimbot.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\legit\aimbot\aimbot.cpp(24,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  silent_aim.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\legit\silent_aim\silent_aim.cpp(112,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  triggerbot.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\legit\triggerbot\triggerbot.cpp(27,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Security\LazyImporter.hpp(494,38): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Cheat/Features/legit/triggerbot/triggerbot.cpp')
+      C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Security\LazyImporter.hpp(494,38):
+      the template instantiation context (the oldest one first) is
+          C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\legit\triggerbot\triggerbot.cpp(50,17):
+          see reference to function template instantiation 'decltype(auto) FrameWork::LazyImporter::li::detail::lazy_function<16941247520264435366,UINT (__cdecl *)(UINT,LPINPUT,int)>::operator ()<int,INPUT*,size_t>(int &&,INPUT *&&,size_t &&) const' being compiled
+  
+  esp.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\Renderer.h(146,22): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\Renderer.h(146,22): warning C4244:         with
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\Renderer.h(146,22): warning C4244:         [
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\Renderer.h(146,22): warning C4244:             _Ty=float
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\Renderer.h(146,22): warning C4244:         ]
+  (compiling source file 'Cheat/Features/esp/esp.cpp')
+  
+  vehicle_esp.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\renderer.h(146,22): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\renderer.h(146,22): warning C4244:         with
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\renderer.h(146,22): warning C4244:         [
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\renderer.h(146,22): warning C4244:             _Ty=float
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\Features\esp\renderer.h(146,22): warning C4244:         ]
+  (compiling source file 'Cheat/Features/esp/vehicle_esp.cpp')
+  
+  Fivem.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\FivemSDK\Fivem.cpp(662,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\FivemSDK\Fivem.cpp(679,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\FivemSDK\Fivem.cpp(729,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\FivemSDK\Fivem.cpp(838,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\Cheat\FivemSDK\Fivem.cpp(856,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  core.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_stdlib.cpp
+  Compiling...
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  button.cpp
+  checkbox.cpp
+  child.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\elements\child.cpp(25,45): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  colorpicker.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\elements\colorpicker.cpp(129,43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\elements\colorpicker.cpp(557,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\elements\colorpicker.cpp(580,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\elements\colorpicker.cpp(563,35): warning C4390: ';': empty controlled statement found; is this the intent?
+  draw.cpp
+  dropdown.cpp
+  esp.cpp
+  helpers.cpp
+  keybind.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\elements\keybind.cpp(590,35): warning C4390: ';': empty controlled statement found; is this the intent?
+  notify.cpp
+  section.cpp
+  slider.cpp
+  textfield.cpp
+  window.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\framework\shader\dx11\blur.hpp(94,170): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FrameWork/framework/elements/window.cpp')
+  
+  gui.cpp
+  blur.cpp
+  Assets.cpp
+  Interface.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Interface.cpp(112,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Interface.cpp(114,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Interface.cpp(115,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Interface.cpp(117,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Compiling...
+  Overlay.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Overlay.cpp(81,8): warning C4101: 'fUIAccess': unreferenced local variable
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Overlay.cpp(79,9): warning C4101: 'dwErr': unreferenced local variable
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Render\Overlay.cpp(80,10): warning C4101: 'hTokenUIAccess': unreferenced local variable
+  Memory.cpp
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Utilities\Memory.cpp(241,9): warning C4101: 'oldProtect': unreferenced local variable
+C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Utilities\Memory.cpp(302,19): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  Misc.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'FrameWork/Utilities/Misc.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Utilities\Misc.cpp(31,21):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\julan\Desktop\YuseiV6\Fivem-External\FrameWork\Utilities\Misc.cpp(31,3):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'FrameWork::Misc::Wstring2String'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+x64\Release\imgui_impl_dx11.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Release\imgui_impl_win32.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Release\esp.obj : warning LNK4042: object specified more than once; extras ignored
+gui.obj : error LNK2005: wWinMain already defined in core.obj
+gui.obj : error LNK2005: "unsigned long __cdecl Unload(void)" (?Unload@@YAKXZ) already defined in core.obj
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Cheat.obj : error LNK2001: unresolved external symbol "void __cdecl Cheat::ESP::Thread(void)" (?Thread@ESP@Cheat@@YAXXZ)
+C:\Users\julan\Desktop\YuseiV6\x64\Release\p2c.exe : fatal error LNK1120: 1 unresolved externals
